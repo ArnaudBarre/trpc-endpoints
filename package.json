@@ -1,0 +1,27 @@
+{
+  "name": "@arnaud-barre/trpc-endpoints",
+  "description": "A POC to use trpc v9 with code navigation from client to server",
+  "version": "0.1.0",
+  "author": "Arnaud Barré (https://github.com/ArnaudBarre)",
+  "license": "MIT",
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts"
+  ],
+  "peerDependencies": {
+    "@trpc/react": "^9",
+    "react-query": "^3",
+    "@trpc/server": "^9"
+  },
+  "devDependencies": {
+    "@trpc/react": "^9",
+    "@trpc/server": "^9",
+    "@types/node": "^18.0.4",
+    "prettier": "^2.7.1",
+    "react-query": "^3.39.1",
+    "typescript": "^4.7.4"
+  }
+}
