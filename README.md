@@ -1,4 +1,4 @@
-# trpc-endpoints
+# trpc-endpoints [![npm](https://img.shields.io/npm/v/@arnaud-barre/trpc-endpoints)](https://www.npmjs.com/package/@arnaud-barre/trpc-endpoints)
 
 A POC to use [trpc](https://github.com/trpc/trpc) v9 with an API inspired by the upcoming v10 that allows navigation from the client code to the server code.
 
