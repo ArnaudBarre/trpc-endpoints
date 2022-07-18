@@ -14,6 +14,6 @@ declare const createEndpoint: <ContextIn, ContextOut>(
 ) => Endpoint<ContextOut>;
 
 declare const mergeEndpoints: (endpoints: {
-  queries: Record<string, Endpoint<unknown>>;
-  mutations: Record<string, Endpoint<unknown>>;
+  queries: Record<string, { input: unknown; output: unknown }>;
+  mutations: Record<string, { input: unknown; output: unknown }>;
 }) => AnyRouter;

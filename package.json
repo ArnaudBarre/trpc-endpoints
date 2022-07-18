@@ -1,7 +1,7 @@
 {
   "name": "@arnaud-barre/trpc-endpoints",
   "description": "A POC to use trpc v9 with code navigation from client to server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Arnaud Barré (https://github.com/ArnaudBarre)",
   "license": "MIT",
   "prettier": {

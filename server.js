@@ -4,7 +4,7 @@ import { router } from "@trpc/server";
 const subRouters = [];
 const endpointsBuffer = {};
 
-const createEndpoint = (middleware) => {
+export const createEndpoint = (middleware) => {
   const subRouter = middleware ? router().middleware(middleware) : router();
   const length = subRouters.push(subRouter);
   return ({ input, resolve }) => {
